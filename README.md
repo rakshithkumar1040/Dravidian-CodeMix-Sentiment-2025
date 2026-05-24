@@ -1,5 +1,7 @@
 # Combating Data Imbalance in Code-Mixed Sentiment Analysis
 
+> IEEE Published Research | Tamil NLP | Code-Mixed Sentiment Analysis | Transformer Models
+
 [![IEEE Publication](https://img.shields.io/badge/IEEE-Published-blue.svg)](https://ieeexplore.ieee.org/abstract/document/11511115)
 
 This repository contains the implementation, experiments, and methodology for our IEEE research paper titled **"Combating Data Imbalance in Code-Mixed Sentiment Analysis"**, presented at the **9th ICICT 2026 Virtual Conference**.
@@ -41,6 +43,24 @@ In this work, we propose a leakage-free transformer-based pipeline using **Embed
 
 ---
 
+## Methodology Overview
+
+![Methodology Flowchart](assets/methodology_flowchart.png)
+
+---
+
+## Results
+
+### Confusion Matrix
+
+![Confusion Matrix](assets/03_confusion_matrix_best.png)
+
+### SMOTE Impact on Minority Classes
+
+![SMOTE Impact](assets/04_smote_impact.png)
+
+---
+
 ## Authors
 
 - **M Jayaditya**
@@ -60,6 +80,11 @@ The official IEEE publication can be accessed here:
 ## Repository Structure
 
 ```plaintext
+├── assets/
+│   ├── methodology_flowchart.png
+│   ├── 03_confusion_matrix_best.png
+│   └── 04_smote_impact.png
+│
 ├── notebooks/
 │   ├── 01_3_class_classification.ipynb
 │   ├── 02_5_class_classification.ipynb
@@ -82,7 +107,7 @@ The official IEEE publication can be accessed here:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/rakshithkumar1040/code-mixed-sentiment.git
+git clone https://github.com/rakshithkumar1040/TaEn-code-mixed-sentiment-analysis.git
 ```
 
 ### 2. Install Required Libraries
@@ -106,7 +131,7 @@ Open the notebooks from the `notebooks/` folder using:
 This work uses the **TamilMixSentiment** dataset.
 
 Dataset Link:  
-https://huggingface.co/datasets/tamilmixsentiment
+🔗 https://huggingface.co/datasets/tamilmixsentiment
 
 ---
 
@@ -132,23 +157,3 @@ If you use this work, please cite the corresponding IEEE paper.
 This repository contains only the implementation and experimental pipeline.
 
 The official published IEEE paper is copyrighted by IEEE and is therefore not directly hosted in this repository.
-
----
-
-## Methodology Overview
-
-![Methodology Flowchart](assets/methodology_flowchart.png)
-
----
-
-## Results
-
-### Confusion Matrix
-
-![Confusion Matrix](assets/03_confusion_matrix_best.png)
-
-### SMOTE Impact on Minority Classes
-
-![SMOTE Impact](assets/04_smote_impact.png)
-
----
