@@ -132,3 +132,23 @@ If you use this work, please cite the corresponding IEEE paper.
 This repository contains only the implementation and experimental pipeline.
 
 The official published IEEE paper is copyrighted by IEEE and is therefore not directly hosted in this repository.
+
+---
+
+## Methodology Overview
+
+![Methodology Flowchart](assets/methodology_flowchart.png)
+
+---
+
+## Results
+
+### Confusion Matrix
+
+![Confusion Matrix](assets/03_confusion_matrix_best.png)
+
+### SMOTE Impact on Minority Classes
+
+![SMOTE Impact](assets/04_smote_impact.png)
+
+---
